@@ -1,0 +1,189 @@
+
+@import "variables";
+
+///////////////////////////////////////////////////////////////////////effect start write
+
+@import "effects";
+
+
+
+
+///////////////////////////////////////////////////////////////////////effect end
+
+.container{
+    //margin: 0 !important;
+    //padding: 0 !important;
+    max-width: 1500px !important;
+    width: 100% !important;
+}
+.page-title{
+    margin-bottom: 0px !important;
+}
+
+
+
+//#shiny-template{ //CUSTOM STYLE LAYER
+
+.des-hide{
+    display: none !important;
+}
+
+.shadow{
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.fcentered{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        flex-direction: column;
+}
+
+.center{
+    text-align: center;
+}
+
+
+a{
+    transition: 0.4s;
+    &:hover{
+        //color: @orange;
+    }
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.center-h {
+        justify-content: center;
+        text-align: center;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        width: 50%;    
+        padding: 0px;
+        box-sizing: border-box;
+        flex-direction: column;
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+
+.btn{
+    background-color: @red;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 22px 28px;
+    border-radius: 6px;
+     font-family: 'Gotham';
+    &:hover{
+        color: aliceblue;
+        background-color: @purple;
+    }
+}
+
+
+// colors --------------
+.white{
+    color: white;
+    font-weight: 100;
+}
+
+.black{
+    color: black;
+}
+
+.green{
+    color: @green;
+    font-weight: 400;
+}
+
+.purple{
+    color: @purple;
+}
+
+.blue{
+    color: @blue;
+}
+     
+.red{
+    color: @red;
+}
+
+.yellow{
+    color: @yellow;
+}
+
+.gray{
+    color: @gray;
+    //font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: 'Gotham Rounded';
+}
+
+// ---------------------
+//sizes
+
+
+
+.mid{
+    font-size: @mid;
+}
+
+.ideal{
+    font-size: @ideal;
+    font-weight: 100;
+}
+
+.big{
+    font-size: @ftwo;
+}
+
+.it{
+    font-family: 'Freestyle Script';
+    font-weight: 100 !important;
+}
+
+p, li{
+    font-size: @txt;
+
+    font-family: 'Gotham Rounded';
+    
+    b{
+        font-family: 'Gotham';
+        font-weight: 900;
+    }
+}
+
+.contain{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2, h1{
+    font-size: @ftwo; 
+    font-family: 'Gotham';
+}
+
+
+
+    
+    //HOME//
+ 
+
+@import "responsive";
+
+//} 
