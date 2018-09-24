@@ -11,7 +11,7 @@
 
 
 <section id="primera" class="template-section">
-    <div class="contain">
+    <div class="contain fcentered" >
          <div class="center">
              <h2>
                  Pide hoy tu primera Asesoría
@@ -24,11 +24,7 @@
                 </a>
              </h2>
          </div>
-         
 
-       
-       
-       
     </div>
 </section>
 
@@ -37,9 +33,9 @@
         <div class="center">
             <h1 class="blue friend">
                 <span class="navy">
-                    Asesoría en 
+                    Asesoría en <br>
                 </span>
-                Cambio de Hábitos
+                Cambio de Hábitos <br>
                 <span class="normal">
                     Online
                 </span>
@@ -75,13 +71,13 @@
     <div class="contain">
          <div class="flex">
             
-            <div class="col small">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/kiwi.png" alt="Kiwi" id="kiwi">
-                <h2>BENEFICIOS</h2>
+            <div class="col small fcentered " id="kiwi">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/kiwi.png" alt="Kiwi" id="kiwi2">
+                <h2 class="yellow" >BENEFICIOS</h2>
                 <p>¡A tu ritmo y en tu tiempo!</p>
             </div>
             <div class="col big">
-                <p>Te ayudaré a cambiar tus hábitos para mejorar la calidad de alimentación que ingresa a tu cuerpo físico obteniendo los siguientes beneficios:</p>
+                <p class="txtp">Te ayudaré a cambiar tus hábitos para mejorar la calidad de alimentación que ingresa a tu cuerpo físico obteniendo los siguientes beneficios:</p>
                 <ul>
                     <li>Asesoria individual en el proceso de cambio, sin juicios, solo  motivación, comprensión y energía positiva para tu éxito en el cambio de hábitos.</li>
                     <li> Cambio de hábitos sanos que duraran toda tu vida.</li>
@@ -90,7 +86,7 @@
                     <li>Técnicas de cocinar de manera natural, alimentos riquísimos y económicos.</li>
                     <li>Harás consciencia de que SOMOS SERES ÚNICOS E IRREPETIBLES.</li>
                 </ul>
-                <p class="yellow">
+                <p class="yellow friend">
                     ¡Y todo esto desde la comodidad de tu casa!
                 </p>
             </div>
@@ -107,14 +103,14 @@
     <div class="contain">
          <div class="center">
              
-             <h2 class="blue">
+             <h2 class="blue friend">
                  Testimonios
              </h2>
              
              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/test-marine.png" alt="Foto de manny Reyes">
              <h3 class="blue">
                  <span class="friend">
-                     Manny Reyes
+                     Manny Reyes<br>
                  </span>
                  <span class="normal">
                      Usa Marine

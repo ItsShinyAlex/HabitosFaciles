@@ -32,6 +32,23 @@
     text-shadow: 2px 2px 8px #000000;
 }
 
+ul{
+        //margin-bottom: 55px;
+    }
+    
+    li::before {
+          content: "• ";
+          font-weight: 400; 
+          font-size: @txt;
+          color: white;
+    }
+    li{
+            //text-indent: -15px;
+        font-family: 'DIN';
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
 .fcentered{
       display: flex;
       justify-content: center;
@@ -80,16 +97,16 @@ a{
 }
 
 .btn{
-    background-color: @red;
+    background-color: @green;
     color: white;
-    font-weight: 900;
-    font-size: 20px;
-    padding: 22px 28px;
-    border-radius: 6px;
-     font-family: 'Gotham';
+    font-weight: 100;
+    font-size: @btntxt;
+    padding: 38px 60px;
+    border-radius: 8px;
+     font-family: 'Amigos';
     &:hover{
         color: aliceblue;
-        background-color: @purple;
+        background-color: @navy;
     }
 }
 
@@ -109,20 +126,16 @@ a{
     font-weight: 400;
 }
 
-.purple{
-    color: @purple;
+.navy{
+    color: @navy;
 }
 
 .blue{
     color: @blue;
 }
      
-.red{
-    color: @red;
-}
-
 .yellow{
-    color: @yellow;
+    color: @yellow !important;
 }
 
 .gray{
@@ -142,27 +155,16 @@ a{
     font-size: @mid;
 }
 
-.ideal{
-    font-size: @ideal;
-    font-weight: 100;
-}
 
-.big{
-    font-size: @ftwo;
-}
 
-.it{
-    font-family: 'Freestyle Script';
-    font-weight: 100 !important;
-}
 
 p, li{
     font-size: @txt;
-
-    font-family: 'Gotham Rounded';
+            color: black;
+    font-family: 'DIN';
     
     b{
-        font-family: 'Gotham';
+
         font-weight: 900;
     }
 }
@@ -174,15 +176,154 @@ p, li{
 }
 
 h2, h1{
-    font-size: @ftwo; 
-    font-family: 'Gotham';
+    font-size: @bigp; 
+    font-family: 'DIN';
 }
 
-
+.friend{
+    font-family: 'Amigos';
+    font-weight: 100;
+}
 
     
     //HOME//
+
+#primera{
+    background: url(../img/home/back-lunchLap.jpg) center no-repeat;
+    min-height: 960px;
+    
+    position: relative;
+    z-index: 0; 
+    
+    .contain{
+        min-height: 960px;
+    }
+    
+    .center{
+        width: 75%;
+    }
+    
+    .friend{
+        font-size: 100px;
+    }
+}
+
+#asesoria{
+    position: relative;
+    bottom: 210px;
+    margin-bottom: -210px;
+    background-color: transparent;
+    background: url(../img/home/abs-mantra.png) center no-repeat;
+    background-position: right -300px top;
  
+
+    
+    .center{
+        padding: 20% 18% 10% 18%;
+    }
+    
+    h1{
+        font-size: @bigp;
+        .navy{
+            font-size: @mid;
+        }
+        .normal{
+            font-size: @big;
+            font-family: "DIN";
+        }
+    }
+    
+    .green{
+        font-size: @mid;
+    }
+    
+    p{
+
+        font-size: @txtp;
+    }
+}
+
+.txtp{
+    font-size: @txtp;
+    line-height: 111%;
+}
+
+#beneficios{
+    background: url(../img/home/back-green-mantra.jpg) center no-repeat;
+    padding-bottom: 10px;
+    #kiwi{
+        position: relative;
+        @kiwipos: 120px;
+        bottom: @kiwipos;
+        margin-bottom: @kiwipos;
+        
+    }
+    #kiwi2{
+        margin-bottom: 50px;
+    }
+    
+  
+    
+    p, li{
+        color: white;
+    }
+    
+    .yellow{
+        font-size: 36px;
+    }
+    
+    .big{
+        width: 60%;
+        padding-left: 40px;
+        padding-top: 9%;
+        padding-right: 20px;
+    }
+    
+    .small{
+        
+        width: 40%;
+          h2{
+            font-size: 75px;
+              margin-bottom: -25px;
+            }
+        p{
+            font-size: 36px;
+        }
+    }
+}
+
+#testimonios{
+    
+    padding-top: 60px;
+    
+    img{
+        transition: 0.3s;
+        margin-bottom: 15px;
+         &:hover{
+               transform: scale(1.1);
+                    transition: 0.3s;
+        }
+    }
+    
+    h2{
+       font-size: @bigp !important;
+    }
+    
+    background-color: @gray;
+    
+    .friend{
+        font-size: @mid;
+    }
+    .normal{
+        font-size: 36px;
+    }
+    p{
+        margin: 0 26% 40px;
+        font-size: 19px;
+        text-align: justify;
+        text-align-last: center;
+    }
+}
 
 @import "responsive";
 
