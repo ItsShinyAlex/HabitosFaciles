@@ -250,3 +250,39 @@ h1 {
   text-align: justify;
   text-align-last: center;
 }
+#precio {
+  background: url(../img/home/back-saladFork.jpg) center no-repeat;
+}
+#precio h2,
+#precio green {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+#precio #usd {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+#precio p {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+#precio .mini {
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+#precio .mini .col {
+  padding: 0 10px;
+}
+#precio .padtop {
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+#precio .cuartil .col {
+  width: 25%;
+}
+#precio .cuartil .col .txt-mini {
+  font-size: 24px;
+}
+#precio .cuartil .col .p {
+  line-height: 80% !important;
+}

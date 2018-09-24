@@ -162,19 +162,19 @@
     <div class="contain">
          <div class="center fcentered">
              
-             <h2 class="friend">Precio</h2>
+             <h2 class="friend blue">Precio</h2>
              <p>Por tan sólo</p>
              <p id="usd" class="green">40 USD</p>
              
-             <div class="flex mini">
-                 <div class="fcentered">
-                     <div class="col">
+             <div class="flex mini fcentered">
+   
+                     <div class="col fcentered">
                          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/paypal.png" alt="PayPal">
                      </div>
-                     <div class="col">
+                     <div class="col fcentered">
                          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/002-visa.png" alt="VISA">
                      </div>
-                 </div>
+
              </div>
              
              <a href="" class="btn">
@@ -182,7 +182,7 @@
             </a>
          </div>
          
-         <h2 class="blue padtop">¿Cómo comprar?</h2>
+         <h2 class="blue padtop friend">¿Cómo comprar?</h2>
          <div class="flex cuartil">
              <div class="col">
                  <div class="fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-click.png" alt="Click"></div>
