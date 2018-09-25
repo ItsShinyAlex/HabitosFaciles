@@ -99,7 +99,7 @@ a {
   color: #0c4761;
 }
 .blue {
-  color: #2893c2;
+  color: #2893c2 !important;
 }
 .yellow {
   color: #ffea03 !important;
@@ -294,6 +294,8 @@ h1 {
 }
 #contacto {
   background-color: #2893c2;
+  background: url(../img/home/back-contacto.jpg) left -300px center;
+  height: 1070px;
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 40px;
@@ -324,6 +326,26 @@ h1 {
   position: relative;
   right: 10%;
   font-size: 48px;
+}
+#contacto .bot {
+  height: 300px;
+  position: relative;
+}
+#contacto .bot #social {
+  position: absolute;
+  bottom: 5%;
+  right: 20%;
+}
+#contacto .bot #social .flex .col {
+  width: 20%;
+  padding: 0 5px;
+}
+#contacto .bot #social .flex .txt {
+  width: 60%;
+  padding: 0;
+}
+#contacto .bot #social .flex .txt p {
+  font-size: 40px;
 }
 #contacto #responsable {
   padding: 10px 3px 8px 15px;
@@ -419,7 +441,7 @@ h1 {
   font-size: 20px;
   height: 60px;
   text-transform: uppercase !important;
-  font-weight: 600;
+  font-weight: 600 !important;
   height: 1%;
   margin-bottom: 0px;
   margin-top: 20px;
@@ -442,6 +464,7 @@ h1 {
   font-family: "DIN" !important;
   padding: 23px;
   font-size: 20px;
+  font-weight: 600 !important;
 }
 #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control::-webkit-input-placeholder,
 #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control::-webkit-input-placeholder {

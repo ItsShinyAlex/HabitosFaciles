@@ -67,6 +67,26 @@
             
         </div>
         
+        <div class="bot">
+            <div id="social">
+               <div class="flex">
+                   <div class="col txt fcentered">
+                       <p class="friend blue">
+                    Sígueme en: 
+                </p>
+                   </div>
+                   <div class="col fcentered">
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/005-facebook.png" alt="Facebook">
+                   </div>
+                   <div class="col fcentered">
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/006-instagram.png" alt="Instagram">
+                   </div>
+               </div>
+                
+                
+            </div>
+        </div>
+        
                        
     </div>
     

@@ -132,7 +132,7 @@ a{
 }
 
 .blue{
-    color: @blue;
+    color: @blue !important;
 }
      
 .yellow{
@@ -391,11 +391,16 @@ h2, h1{
 
 #contacto{
     background-color: @blue;
+    background: url(../img/home/back-contacto.jpg) left -300px center;
+
+    height: 1070px;
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 40px;
     
     //HABITOS FACILES 
+    
+    
     
     .col{
         
@@ -441,6 +446,32 @@ h2, h1{
          
         }
     }
+    
+    .bot{
+        height: 300px;
+          position: relative;
+         #social{
+           position:absolute;
+            bottom:5%;
+            right:20%;
+             
+             .flex{
+                 
+                 .col{
+                     width: 20%;
+                     padding: 0 5px;
+                 }
+                 .txt{
+                     width: 60%;
+                     padding: 0;
+                     p{
+                         font-size: 40px;
+                     }
+                 }
+             }
+        }
+    }
+   
     
     //El resto es copia de otra sección de contacto.
     
@@ -596,7 +627,7 @@ h2, h1{
                         font-size: 20px;
                         height: 60px;
                         text-transform: uppercase !important;
-                        font-weight: 600;
+                    font-weight: 600 !important;
                     height: 1%;
                 
                 option{
@@ -626,6 +657,7 @@ h2, h1{
                         font-family: "DIN" !important;
                         padding: 23px;
                         font-size: 20px;
+                        font-weight: 600 !important;
                         
                         &::-webkit-input-placeholder {
                             color: black !important;
