@@ -13,7 +13,7 @@
 .container{
     //margin: 0 !important;
     //padding: 0 !important;
-    max-width: 1500px !important;
+    max-width: 1800px !important;
     width: 100% !important;
 }
 .page-title{
@@ -97,6 +97,7 @@ a{
 }
 
 .btn{
+    text-transform: none !important;
     background-color: @green;
     color: white;
     font-weight: 100;
@@ -138,13 +139,7 @@ a{
     color: @yellow !important;
 }
 
-.gray{
-    color: @gray;
-    //font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 0px;
-    font-family: 'Gotham Rounded';
-}
+
 
 // ---------------------
 //sizes
@@ -162,6 +157,7 @@ p, li{
     font-size: @txt;
             color: black;
     font-family: 'DIN';
+    font-weight: 600;
     
     b{
 
@@ -330,6 +326,7 @@ h2, h1{
 }
 
 #precio{
+    padding-bottom: 100px;
     background: url(../img/home/back-saladFork.jpg) center no-repeat;
     h2, green{
         font-size: @big;
@@ -342,6 +339,7 @@ h2, h1{
     }
     
     p{
+        line-height: 110%;
         font-size: @txtp;
         margin-bottom: 0px;
     }
@@ -360,17 +358,334 @@ h2, h1{
     }
     
     .cuartil{
+       
+        img{
+            margin-bottom: 30px;
+            height: 121px;
+        }
         .col{
+             padding: 20px;
             width: 25%;
             
             .txt-mini{
                 font-size: @txt;
             }
             .p{
-                line-height: 80% !important;
+                    line-height: 110%;
             }
         }
     }
+}
+
+#aboutme{
+    
+    background: url(../img/home/back-girl-mantra.png) left -300px center no-repeat;
+    min-height: 1200px;
+    
+    .just-center{
+        text-align: justify;
+        text-align-last: center;
+        min-height: 1200px;
+    }
+}
+
+#contacto{
+    background-color: @blue;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    
+    //HABITOS FACILES 
+    
+    .col{
+        
+        //padding: 0 20px;
+    }
+    
+    #mapa{
+        img{
+            width: 75px;
+            height: 75px;
+            
+
+        }
+        
+        p{
+            font-size: @txtp;
+        }
+        
+        #double{
+            .icon{
+                    width: 25%;
+                #phone{
+                    margin-right: 20px;
+                }
+                
+                img{
+                        position: relative;
+                        right: 64%;
+                        margin-right: -64%;
+                }
+                
+            }
+        
+            .flex, .col{
+                min-width: 75px;
+            }
+        }
+        
+        .phone{
+            position: relative;
+            right: 10%;
+                font-size: @mid;
+         
+        }
+    }
+    
+    //El resto es copia de otra sección de contacto.
+    
+    #responsable{
+        //width: 70%;
+        //border: solid white 3px;
+        //border-radius: 8px;
+        padding: 10px 3px 8px 15px;
+        margin-top: 15%;
+        
+        p{
+              //font-size: 20px;
+        font-weight: 600;
+            margin-bottom: 0px;
+        }
+      
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    
+    
+    .c-col{
+        padding-left: 40px;
+        padding-right: 120px;
+        
+        .flex{
+            padding-top: 30px;
+                padding-bottom: 20px;
+        }
+        
+            
+    }
+    
+    a{
+        text-decoration: none;
+        &:hover{
+            color: @green;
+        }
+        
+        p{
+            transition: 0.3s;
+        }
+        
+        p:hover{
+            color: @green;
+        }
+    }
+    
+    .btn-green{
+        &:hover{
+            color: @yellow;
+            background-color: #45706b;
+        }
+    }
+    
+    .pad-top{
+        padding-top: 25px;
+    }
+    
+    h2, p {
+        color: white;
+    }
+    
+    
+    
+    
+    h2{
+        font-size: 62px;
+        line-height: 150%;
+        font-style: normal;
+    }
+    
+    .uptown{
+        font-size: 100px;
+    }
+    
+    
+    
+    .icon{
+        width: 20%;
+        img{
+        //width: 180px;
+        }
+    }
+    
+    #followus{
+            #siguenos{
+                width: 36%;
+            p{
+                font-size: 32px !important;
+            }
+        }
+        .icon{
+            width: 17%;
+        }
+        
+        img{
+        &:hover{
+            transform: scale(1.2);
+            transition: 0.3s;
+        }
+    }
+        
+    }
+    
+    
+
+    
+    .icons-bot{
+        margin-bottom: 25px;
+    }
+    
+    .mar-bot{
+        margin-bottom: 60px;
+    }
+    
+    .pad-left{
+        padding-left: 22px;
+    }
+    
+    #mapa{
+        p{
+            //font-size: 18px;
+            &.phone{
+                padding-top: 6%;
+                //font-size: 22px;
+            }
+        }
+        padding-top: 180px;
+
+    }
+    
+    .big{
+        //font-size: 24px;
+        font-weight: 900;
+    }
+    
+    .col{
+        #cform{
+            
+            #caldera_form_1{
+            
+            //#fld_2494155_1{
+            select{       
+                        border-width: 3px !important;
+                        border-color: white !important;
+                        border-radius: 12px;
+                        background: white !important;
+                        color: black !important;
+                        font-family: "DIN" !important;
+                        padding: 8px;
+                        font-size: 20px;
+                        height: 60px;
+                        text-transform: uppercase !important;
+                        font-weight: 600;
+                    height: 1%;
+                
+                option{
+                    color: black;
+                    font-size: 18px;
+                }
+                
+                margin-bottom: 0px;
+                margin-top: 20px;
+            }
+            
+             .caldera-grid .form-control::-webkit-input-placeholder {
+            color: black !important;
+                    font-weight: 600;
+            }
+            
+             .row ,.single{
+                .col-sm-12{
+                    
+                
+                    .form-control{
+                        border-width: 3px !important;
+                        border-color: white !important;
+                        border-radius: 8px;
+                        background: white !important;
+                        color: black !important;
+                        font-family: "DIN" !important;
+                        padding: 23px;
+                        font-size: 20px;
+                        
+                        &::-webkit-input-placeholder {
+                            color: black !important;
+                        }
+              
+
+                    }
+                }
+            }
+            
+        }
+        }
+    }
+    
+    
+
+    
+    
+    
+    .caldera-grid .checkbox label, .caldera-grid .radio label {
+         color: black !important;
+        font-family: "DIN" !important;
+        font-size: 20px;
+    }
+    
+    //checkbox
+    .fld_2494155_1, .fld_5824425_1{
+            height: 20px;
+            width: 90px;
+            margin-top: 10px;
+    }
+    
+    //button
+     #fld_5573142_1-wrap, #fld_2388358_1-wrap{
+        float: right;
+        #fld_5573142_1, #fld_2388358_1, .btn-form-class{
+                background: @green !important;
+                padding: 10px 60px;
+                border-radius: 8px;
+                color: white;
+                font-weight: 100 !important;
+                font-size: 58px;
+                font-family: 'Amigos';
+                text-decoration: none !important;
+                transition: 0.3s;
+                text-transform: capitalize !important;
+            &:hover{
+                color: @yellow;
+                background: #45706b !important;
+            }
+        }
+    }
+    
+    .caldera-grid input[type=submit]{
+        background-color: @green !important;
+    }
+    input[type="submit"]:not([name="update_cart"]){
+        background-color: @green !important;
+    }
+    
 }
 
 @import "responsive";

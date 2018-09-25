@@ -210,7 +210,7 @@
     <div class="contain">
         <div class="flex">
             <div class="col empty"></div>
-            <div class="col just-center">
+            <div class="col just-center fcentered">
                 <h2 class="blue friend">Acerca de mi</h2>
                 
                 <p>¡HOLA!  Soy Claudia Ruiz, Mexicana con mucho orgullo y me gusta ayudar a las personas a sentirse más saludables por fuera y por dentro.</p>
@@ -231,7 +231,7 @@
 
 
 <?php 
-    //include("shiny-footer.php");
+    include("shiny-footer.php");
     get_footer();
 ?>
 
