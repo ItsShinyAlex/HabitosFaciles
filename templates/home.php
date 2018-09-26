@@ -146,15 +146,158 @@
 </section>
 
 
-<section id="faq" class="template-section">
+<section class="template-section" id="faq">
     <div class="contain">
-         <div class="center">
-             
-             
-             
-         </div>
+       
+       <div class="fcentered center">
+           <div class="pf">
+                   <h2  class="blue friend">Preguntas Frecuentes
+                    </h2>
+               </div>
+            <div class="bluebox">
+               
+               
+               <div class="fcentered">
+                   
+                   
+                            
+                 <div class="card">
+                   
+                   <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Cómo cambio de hábitos? </h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Se integra un cambio a la vez. </p>
+                             <br>
+                        
+
+
+                          
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Cómo aprendo? </h4>
+                        <div data-accordion-element-content class="content">
+                           <p class="pad-top">Con guías y consejos para tu propio bienestar.</p>
+                            
+
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Cuántas sesiones necesito?</h4>
+                        <div data-accordion-element-content class="content">
+                         
+                          <p class="pad-top">Depende de ti, hasta donde quieres cambiar escucha tu interior.</p>
+                         
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Si no me funciona, me devuelven mi dinero?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Los cambios funcionan, sólo es cuestión que en verdad tu los realices de manera constante.</p>
+                       
+                        </div>
+                      </article>
+                   
+                   <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Cuánto tiempo se toma en cambiar un hábito?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Un habito se adquiere con dedicación es para tu propio beneficio. </p>
+                             <br>
+                        
+
+
+                          
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Diagnosticas enfermedades? ¿Recetan medicamentos?</h4>
+                        <div data-accordion-element-content class="content">
+                           <p class="pad-top">No, eso lo vez tu con tu médico. No, nunca se recetan medicamentos todo lo que se ofrece es natural y tú mismo compras en la comodidad de tu casa.</p>
+                            
+                  
+
+                        </div>
+                      </article>
+                      
+  
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Dan dietas?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Nunca, se elabora un plan de alimentación sana conforme a tus necesidades y gustos.</p>
+                       
+                        </div>
+                      </article>
+                    
+                    <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Cuentan calorías?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">No, solo contamos nutrientes.</p>
+                             <br>
+                        
+
+
+                          
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Brindan herramientas para el éxito en cambio de hábitos?</h4>
+                        <div data-accordion-element-content class="content">
+                           <p class="pad-top">Si, proporcionamos herramientas fáciles de aplicar para cambiar de hábitos.</p>
+                            
+
+                        </div>
+                      </article>
+                      
+         
+                    
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿La asesoría es personalizada? </h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Si, te acompaño de manera individual y te asesoro en el proceso de cambio, sin juicios, solo  motivación, comprensión y energía positiva para tu éxito en el cambio de hábitos.</p>
+                       
+                        </div>
+                      </article>
+                     
+   
+                      
+                
+                      
+                    </div>
+                    
+                    
+                    
+                    
+                    
+               </div>
+                
+            </div>
+       </div>
+       
+        
+        
     </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -177,7 +320,7 @@
 
              </div>
              
-             <a href="" class="btn">
+             <a href="" class="btn mov-hid">
                     ¡Comprar!
             </a>
          </div>
@@ -203,6 +346,11 @@
                  <p class="txt-mini">comienza ya a recibir todos los beneficios de una nutrición realmente saludable.</p>
              </div>
          </div>
+         <div class="fcentered des-hid">
+             <a href="" class="btn des-hid">
+                    ¡Comprar!
+            </a>
+         </div>
     </div>
 </section>
 
@@ -226,8 +374,179 @@
     </div>
 </section>
 
+<!-- acordion -->
+<script>
+    var gianniAccordion = (function(){
+      return class {      
 
+        transitionendEventName(){
+          var i,
+              el = document.createElement('div'),
+              transitions = {
+                'transition': 'transitionend',
+                'OTransition': 'otransitionend',
+                'MozTransition': 'transitionend',
+                'WebkitTransition': 'webkitTransitionEnd'
+              };
 
+          for (i in transitions) {
+            if (transitions.hasOwnProperty(i) && el.style[i] !== undefined) {
+              return transitions[i];
+            }
+          }
+        }
+
+        expand(el){
+          function resetHeight(ev){
+            if(ev.target != el.content) return
+            el.content.removeEventListener(this.transitionendevent, bindEvent);
+
+            if(!el.isOpen) return
+
+            requestAnimationFrame(()=>{      
+              el.content.style.transition = '0';
+              el.content.style.height = 'auto';
+
+              requestAnimationFrame(()=>{
+                el.content.style.height = null;
+                el.content.style.transition = null;
+
+                this.fire("elementOpened", el);
+              });
+            });
+          }
+
+          var bindEvent = resetHeight.bind(this);
+          el.content.addEventListener(this.transitionendevent, bindEvent);
+
+          el.isOpen = true;
+          el.content.style.height = el.content.scrollHeight + "px";
+        }
+
+        collapse(el){
+
+          function endTransition(ev){     
+            if(ev.target != el.content) return
+            el.content.removeEventListener(this.transitionendevent, bindEvent);
+
+            if(el.isOpen) return
+
+            this.fire("elementClosed", el);
+          }
+
+          var bindEvent = endTransition.bind(this);
+          el.content.addEventListener(this.transitionendevent, bindEvent);
+
+          el.isOpen = false;    
+
+          requestAnimationFrame(()=>{
+            el.content.style.transition = '0';
+            el.content.style.height = el.content.scrollHeight + "px";
+
+            requestAnimationFrame(()=>{
+              el.content.style.transition = null;
+              el.content.style.height = 0;
+            });
+          });
+        }
+
+        open(el){
+          el.selected = true;
+          this.fire("elementSelected", el);
+          this.expand(el);
+          el.wrapper.classList.add(this.selectedClass);
+        }
+
+        close(el){
+          el.selected = false;
+          this.fire("elementUnselected", el);
+          this.collapse(el);
+          el.wrapper.classList.remove(this.selectedClass);
+        }
+
+        toggle(el){
+          if(el.selected){
+            this.close(el);
+          } else {
+            this.open(el);
+
+            if(this.oneAtATime){        
+              this.els.filter(e=>e!=el && e.selected).forEach(e=>{
+                this.close(e);
+              });
+            }
+          }
+        }
+
+        attachEvents(){    
+          this.els.forEach((el, i)=>{
+            el.trigger.addEventListener("click", this.toggle.bind(this, el));
+          });
+        }
+
+        setDefaultData(){    
+          this.els = [];
+          this.events = {
+            'elementSelected': [],
+            'elementOpened': [],
+            'elementUnselected': [],
+            'elementClosed': []
+          };
+          this.transitionendevent = this.transitionendEventName();
+          this.oneAtATime = true;
+          this.selectedClass = "selected";
+          this.trigger = "[data-accordion-element-trigger]";
+          this.content = "[data-accordion-element-content]";
+        }
+
+        setCustomData(data){
+          var keys = Object.keys(data);
+
+          for(var i=0; i<keys.length; i++){
+            this[ keys[i] ] = data[ keys[i] ];
+          }
+        }
+
+        fire(eventName, el){
+          var callbacks = this.events[eventName];
+          for(var i=0; i<callbacks.length; i++){
+            callbacks[i]( el )
+          }
+        }
+
+        on(eventName, cb){
+          if( !this.events[eventName] ) return       
+          this.events[eventName].push(cb);
+        }
+
+        constructor(data){    
+          this.setDefaultData();
+          this.setCustomData(data); // ES6 => Object.assign(this, data)
+
+          [].forEach.call( document.querySelectorAll(this.elements), (el, i)=>{
+            this.els.push({
+              wrapper: el,
+              trigger: el.querySelector(this.trigger),
+              content: el.querySelector(this.content)
+            });
+
+            this.els[i].content.style.height = 0;
+          });
+
+          this.attachEvents();
+        }
+
+      }
+    })();
+
+    var myAccordion = new gianniAccordion({
+      elements: ".card article"
+    });
+
+    myAccordion.on("elementSelected", (data)=>{
+      console.log("elementOpened", data);
+    });
+</script>
 
 
 <?php 
