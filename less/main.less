@@ -24,6 +24,11 @@
 
 //#shiny-template{ //CUSTOM STYLE LAYER
 
+ .just-center{
+        text-align: justify ;
+        text-align-last: center ;
+}
+
 .des-hid{
     display: none !important;
 }
@@ -768,6 +773,81 @@ h2, h1{
     }
     
 }
+
+//ABOUT///////////////////////--------------------------------->
+
+#hola{
+    background: url(../img/about/back-primera.jpg) bottom no-repeat;
+    height: 1802px;
+    .contain{
+        height: 1802px;
+    }
+    
+    .fcentered{
+        width: 700px;
+        padding-top: 100px;
+        
+    }
+    background-size: cover;
+    
+    h1{
+        font-size: 130px !important;
+        margin-bottom: 610px;
+    }
+    h2{
+        font-size: @mid;
+    }
+}
+#story{
+    #yoga{
+        background: url(../img/about/back-girl-yoga.png) center no-repeat;
+        background-size: cover;
+    }
+    .contain{
+        padding: 0px;
+        margin: 0;
+        //max-width: 100%;
+    }
+    @h: 604px;
+
+    background-size: cover;
+    height: @h;
+    .flex{
+      height: @h;
+        .col{
+      height: @h;
+        }
+    }
+    background-color: @green;
+    p{
+        font-size: 19px;
+        color: white;
+        font-weight: 100;
+        text-align: justify;
+        text-align-last: left;
+    }
+    .txt{
+        padding: 5% 3%;
+    }
+    
+    
+}
+#cv{
+    padding-top: 40px;
+    img{
+        margin-bottom: 40px;
+    }
+    .w{
+        width: 66%;
+    }
+    
+    .green{
+        font-size: @mid;
+    }
+}
+
+
+
 
 @import "responsive";
 

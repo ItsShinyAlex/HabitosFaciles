@@ -262,6 +262,10 @@ article.selected {
 .page-title {
   margin-bottom: 0px !important;
 }
+.just-center {
+  text-align: justify ;
+  text-align-last: center ;
+}
 .des-hid {
   display: none !important;
 }
@@ -810,6 +814,66 @@ h1 {
 #contacto input[type="submit"]:not([name="update_cart"]) {
   background-color: #83ba07 !important;
 }
+#hola {
+  background: url(../img/about/back-primera.jpg) bottom no-repeat;
+  height: 1802px;
+  background-size: cover;
+}
+#hola .contain {
+  height: 1802px;
+}
+#hola .fcentered {
+  width: 700px;
+  padding-top: 100px;
+}
+#hola h1 {
+  font-size: 130px !important;
+  margin-bottom: 610px;
+}
+#hola h2 {
+  font-size: 48px;
+}
+#story {
+  background-size: cover;
+  height: 604px;
+  background-color: #83ba07;
+}
+#story #yoga {
+  background: url(../img/about/back-girl-yoga.png) center no-repeat;
+  background-size: cover;
+}
+#story .contain {
+  padding: 0px;
+  margin: 0;
+}
+#story .flex {
+  height: 604px;
+}
+#story .flex .col {
+  height: 604px;
+}
+#story p {
+  font-size: 19px;
+  color: white;
+  font-weight: 100;
+  text-align: justify;
+  text-align-last: left;
+}
+#story .txt {
+  padding: 5% 3%;
+}
+#cv {
+  padding-top: 40px;
+}
+#cv img {
+  margin-bottom: 40px;
+}
+#cv .w {
+  width: 66%;
+}
+#cv .green {
+  font-size: 48px;
+}
 @media screen and (max-width: 650px) {
   .container {
     max-width: 1800px !important;
@@ -1356,5 +1420,78 @@ h1 {
   #contacto #fld_5573142_1-wrap .btn-form-class:hover,
   #contacto #fld_2388358_1-wrap .btn-form-class:hover {
     background: #45706b !important;
+  }
+  #hola {
+    background: url(../img/about-responsive/back-primera.jpg) bottom no-repeat;
+    height: 100%;
+    max-height: 1887px;
+    background-size: 100%;
+  }
+  #hola .contain {
+    height: 100%;
+  }
+  #hola .fcentered {
+    width: 96%;
+    padding-top: 100px;
+  }
+  #hola h1 {
+    font-size: 60px !important;
+    margin-bottom: 400px;
+    position: relative;
+    top: 50px;
+  }
+  #hola h2 {
+    font-size: 30px;
+    line-height: 60%;
+  }
+  #hola p,
+  #hola h2 {
+    position: relative;
+    top: 30px;
+  }
+  #story {
+    height: 1300px;
+    background-size: cover;
+    background-color: #83ba07;
+  }
+  #story #yoga {
+    background: url(../img/about-responsive/back-girl-yoga.png.jpg) center no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  #story .contain {
+    padding: 0px;
+    margin: 0;
+  }
+  #story .flex {
+    height: 620px;
+  }
+  #story .flex .col {
+    width: 100%;
+    height: 620px;
+  }
+  #story p {
+    font-size: 16px;
+    text-align-last: center;
+  }
+  #story .txt {
+    padding: 10% 6%;
+    background: url(../img/about-responsive/back-green.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  }
+  #cv {
+    padding-top: 40px;
+  }
+  #cv img {
+    margin-bottom: 40px;
+    width: 80%;
+  }
+  #cv .w {
+    width: 90%;
+  }
+  #cv .green {
+    font-size: 30px;
+    line-height: 111%;
   }
 }
