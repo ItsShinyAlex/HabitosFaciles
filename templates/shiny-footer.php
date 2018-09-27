@@ -76,10 +76,10 @@
                 </p>
                    </div>
                    <div class="col fcentered">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/005-facebook.png" alt="Facebook">
+                       <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/005-facebook.png" alt="Facebook"></a>
                    </div>
                    <div class="col fcentered">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/006-instagram.png" alt="Instagram">
+                       <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/006-instagram.png" alt="Instagram"></a>
                    </div>
                </div>
                 

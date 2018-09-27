@@ -123,25 +123,20 @@
              
        
              
-             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/test-marine.png" alt="Foto de manny Reyes">
+             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/test-man.png" alt="Foto de Claudio Alcántara">
              <h3 class="blue">
                  <span class="friend">
-                     
+                     Claudio Alcántara
                  </span>
-                 <span class="normal">
-                     
-                 </span> 
+                
              </h3>
              <p>
-                 
+                 Debido a una afección de hígado acudí a Hábitos Fáciles quién me recomendó usará la tintura de cardomariano, me ayudo mucho en la recomendación el uso de productos naturales para la salud.
              </p>
              
          </div>
          
 
-       
-       
-       
     </div>
 </section>
 

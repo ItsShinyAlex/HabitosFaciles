@@ -24,6 +24,8 @@
 
 //#shiny-template{ //CUSTOM STYLE LAYER
 
+
+
  .just-center{
         text-align: justify ;
         text-align-last: center ;
@@ -113,6 +115,9 @@ a{
     &:hover{
         color: aliceblue;
         background-color: @navy;
+
+        box-shadow: 5px 3px 5px rgba(0,0,0,0.5) !important;
+    
     }
 }
 
@@ -231,7 +236,12 @@ h2, h1{
         .normal{
             font-size: @big;
             font-family: "DIN";
+            font-weight: 600;
         }
+    }
+    
+    h2{
+        font-weight: 600 !important;
     }
     
     .green{
@@ -396,6 +406,14 @@ h2, h1{
         margin-bottom: 30px;
         .col{
             padding: 0 10px;
+            
+               img{
+                    transition: 0.3s;
+                     &:hover{
+                           transform: scale(1.1);
+                                transition: 0.3s;
+                    }
+                }
         }
     }
     
@@ -409,6 +427,11 @@ h2, h1{
         img{
             margin-bottom: 30px;
             height: 121px;
+             transition: 0.3s;
+                     &:hover{
+                           transform: scale(1.1);
+                                transition: 0.3s;
+                    }
         }
         .col{
              padding: 20px;
@@ -455,9 +478,18 @@ h2, h1{
     }
     
     #mapa{
+        
+        a{
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                text-shadow: 2px 2px 8px @navy;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        
         img{
-            width: 75px;
-            height: 75px;
+            width: 72px;
+            height: 72px;
             
 
         }
@@ -482,7 +514,7 @@ h2, h1{
             }
         
             .flex, .col{
-                min-width: 75px;
+                min-width: 72px;
             }
         }
         
@@ -759,8 +791,9 @@ h2, h1{
                 transition: 0.3s;
                 text-transform: capitalize !important;
             &:hover{
-                color: @yellow;
-                background: #45706b !important;
+                color: aliceblue;
+                background: @navy !important;
+                box-shadow: 5px 3px 5px rgba(0,0,0,0.5);
             }
         }
     }
@@ -834,9 +867,15 @@ h2, h1{
 }
 #cv{
     padding-top: 40px;
-    img{
-        margin-bottom: 40px;
-    }
+
+            img{
+                margin-bottom: 40px;
+                         transition: 0.3s;
+                          &:hover{
+                            transform: scale(1.2);
+                              transition: 0.3s;
+                         }
+                     }
     .w{
         width: 66%;
     }

@@ -331,6 +331,7 @@ a {
 .btn:hover {
   color: aliceblue;
   background-color: #0c4761;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5) !important;
 }
 .white {
   color: white;
@@ -415,6 +416,10 @@ h1 {
 #asesoria h1 .normal {
   font-size: 60px;
   font-family: "DIN";
+  font-weight: 600;
+}
+#asesoria h2 {
+  font-weight: 600 !important;
 }
 #asesoria .green {
   font-size: 48px;
@@ -554,6 +559,13 @@ h1 {
 #precio .mini .col {
   padding: 0 10px;
 }
+#precio .mini .col img {
+  transition: 0.3s;
+}
+#precio .mini .col img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 #precio .padtop {
   margin-top: 200px;
   margin-bottom: 40px;
@@ -561,6 +573,11 @@ h1 {
 #precio .cuartil img {
   margin-bottom: 30px;
   height: 121px;
+  transition: 0.3s;
+}
+#precio .cuartil img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 #precio .cuartil .col {
   padding: 20px;
@@ -589,9 +606,16 @@ h1 {
   padding-top: 80px;
   padding-bottom: 40px;
 }
+#contacto #mapa a {
+  transition: all 0.3s ease-in-out;
+}
+#contacto #mapa a:hover {
+  text-shadow: 2px 2px 8px #0c4761;
+  transition: all 0.3s ease-in-out;
+}
 #contacto #mapa img {
-  width: 75px;
-  height: 75px;
+  width: 72px;
+  height: 72px;
 }
 #contacto #mapa p {
   font-size: 30px;
@@ -609,7 +633,7 @@ h1 {
 }
 #contacto #mapa #double .flex,
 #contacto #mapa #double .col {
-  min-width: 75px;
+  min-width: 72px;
 }
 #contacto #mapa .phone {
   position: relative;
@@ -805,8 +829,9 @@ h1 {
 #contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
 #contacto #fld_5573142_1-wrap .btn-form-class:hover,
 #contacto #fld_2388358_1-wrap .btn-form-class:hover {
-  color: #ffea03;
-  background: #45706b !important;
+  color: aliceblue;
+  background: #0c4761 !important;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
 }
 #contacto .caldera-grid input[type=submit] {
   background-color: #83ba07 !important;
@@ -867,6 +892,11 @@ h1 {
 }
 #cv img {
   margin-bottom: 40px;
+  transition: 0.3s;
+}
+#cv img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 #cv .w {
   width: 66%;
