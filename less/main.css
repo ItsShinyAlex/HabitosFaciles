@@ -255,6 +255,35 @@ article.selected {
     opacity: 1;
   }
 }
+.site-logo {
+  position: relative;
+  left: 41%;
+}
+.site-logo img {
+  height: 190px !important;
+  width: 238px !important;
+  max-height: 190px !important;
+  position: relative !important;
+  top: 10px !important;
+}
+.site-logo .woodmart-sticky-logo {
+  top: 0px !important;
+  height: 50px !important;
+  width: 182px !important;
+  max-height: 150px !important;
+}
+.header-split .main-nav .menu {
+  margin: 0 !important;
+}
+.search-button .search-button-icon {
+  display: none;
+}
+.document-ready .menu-label {
+  opacity: 0 !important;
+}
+.main-page-wrapper {
+  padding-top: 0 !important;
+}
 .container {
   max-width: 1800px !important;
   width: 100% !important;
