@@ -255,25 +255,41 @@ article.selected {
     opacity: 1;
   }
 }
-.site-logo {
-  position: relative;
-  left: 41%;
-}
-.site-logo img {
-  height: 190px !important;
-  width: 238px !important;
-  max-height: 190px !important;
-  position: relative !important;
-  top: 10px !important;
-}
-.site-logo .woodmart-sticky-logo {
-  top: 0px !important;
-  height: 50px !important;
-  width: 182px !important;
-  max-height: 150px !important;
+@media screen and (min-width: 1150px) {
+  #menu-item-9 {
+    margin-right: 250px !important;
+  }
+  .site-logo img {
+    height: 190px !important;
+    width: 238px !important;
+    max-height: 190px !important;
+    position: relative !important;
+    top: 50px !important;
+    transition: 0.3s !important;
+  }
+  .site-logo img:hover {
+    transform: scale(1.1) !important;
+    transition: 0.3s !important;
+  }
+  .site-logo .woodmart-sticky-logo {
+    position: relative !important;
+    top: -30px !important;
+    height: 0px !important;
+    height: 190px !important;
+    width: 238px !important;
+  }
 }
 .header-split .main-nav .menu {
   margin: 0 !important;
+}
+.woodmart-nav-link {
+  color: #2893c2 !important;
+}
+.woodmart-nav-link:hover {
+  color: #83ba07 !important;
+}
+.woodmart-nav-link:active {
+  color: #83ba07 !important;
 }
 .search-button .search-button-icon {
   display: none;
@@ -933,6 +949,17 @@ h1 {
 #cv .green {
   font-size: 48px;
 }
+@media screen and (max-width: 1500px) and (min-width: 666px) {
+  .woodmart-nav-link {
+    font-size: 15px !important;
+  }
+  .menu-item-11 {
+    margin-left: 30px !important;
+  }
+  #menu-item-9 {
+    margin-right: 240px !important;
+  }
+}
 @media screen and (max-width: 650px) {
   .container {
     max-width: 1800px !important;
@@ -1025,7 +1052,7 @@ h1 {
     font-weight: 900;
   }
   .contain {
-    max-width: 1300px;
+    max-width: 1220px;
     margin: 0 auto;
     padding: 20px;
   }

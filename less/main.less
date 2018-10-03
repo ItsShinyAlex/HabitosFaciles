@@ -11,24 +11,64 @@
 ///////////////////////////////////////////////////////////////////////effect end
 //header
 
-.site-logo{
-    position: relative;
-    left: 41%;
-    img{
-        height: 190px !important;
-        width: 238px !important;
-        max-height: 190px !important;
-        position: relative !important;
-        top: 10px !important;
+@media screen and (min-width:1150px){
+    #menu-item-9{
+        margin-right: 250px !important;
     }
-    
-    .woodmart-sticky-logo{
-        top: 0px !important;
-         height: 50px !important;
-        width: 182px !important;
-        max-height: 150px !important;
+
+    .site-logo{
+
+
+        .woodmart-logo-wrap{
+
+        }
+        //position: relative !important;
+        //left: 50% !important;
+        //height: 190px !important;
+            //width: 238px !important;
+        img{
+            height: 190px !important;
+            width: 238px !important;
+            max-height: 190px !important;
+            position: relative !important;
+            top: 50px !important;
+
+            transition: 0.3s !important;
+             &:hover{
+               transform: scale(1.1) !important;
+                        transition: 0.3s !important;
+            }
+        }
+
+        .woodmart-sticky-logo{
+            position: relative !important;
+            top: -30px !important;
+             height: 0px !important;
+            height: 190px !important;
+            width: 238px !important;
+
+            //max-height: 150px !important;
+        }
+
+
+
     }
 }
+
+.header-sticky-real{
+    //margin-top: 20px !important;
+}
+
+  #menu-navbar{
+         //padding-left: 20% !important;   
+    }
+
+
+
+    .act-scroll{
+     //margin-top: 0px !important;
+}
+
 
 
 .header-split .main-nav .menu {
@@ -37,6 +77,14 @@
 
 .woodmart-nav-link{
 //font-size: 20px !important;
+    color: @blue !important;
+    &:hover{
+        color: @green !important;
+    }
+    &:active{
+        color: @green !important;
+    }
+    
 }
 
 .search-button .search-button-icon{
