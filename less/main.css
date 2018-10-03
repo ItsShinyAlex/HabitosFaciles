@@ -259,6 +259,9 @@ article.selected {
   #menu-item-9 {
     margin-right: 250px !important;
   }
+  .site-logo .woodmart-logo-wrap {
+    z-index: 0 !important;
+  }
   .site-logo img {
     height: 190px !important;
     width: 238px !important;
