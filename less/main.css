@@ -939,11 +939,12 @@ h1 {
   padding-top: 40px;
 }
 #cv img {
+  width: 50%;
   margin-bottom: 40px;
   transition: 0.3s;
 }
 #cv img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.3s;
 }
 #cv .w {
@@ -1069,17 +1070,24 @@ h1 {
     font-weight: 100;
   }
   #primera {
-    display: none;
-    background: url(../img/home/back-lunchLap.jpg) center no-repeat;
-    min-height: 960px;
+    padding-top: 200px;
+    background: url(../img/home-responsive/back-banner1.jpg) center no-repeat;
+    min-height: 560px;
     position: relative;
     z-index: 0;
   }
+  #primera h2 {
+    text-align: center;
+    font-size: 29px !important;
+  }
+  #primera h2 .friend {
+    font-size: 48px !important;
+  }
   #primera .contain {
-    min-height: 960px;
+    min-height: 560px;
   }
   #primera .center {
-    width: 75%;
+    width: 100%;
   }
   #primera .friend {
     font-size: 100px;
