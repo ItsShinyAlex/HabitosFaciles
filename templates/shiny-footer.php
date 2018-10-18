@@ -46,8 +46,7 @@
                     </div>
                     <div class="col txt">
                         <p class="white friend">
-                            De Lunes a Viernes<br> 
-                            de 9:00 am a 5:00 pm 
+                            Horario abierto
                         </p>
                     </div>
                 </div>
@@ -57,7 +56,7 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/004-email.png" alt="Correo electrónico">
                     </div>
                     <div class="col txt totop">
-                        <a href="mailto:contacto@bodybalance.mx?subject=Contacto%20Bodybalance"><p class="friend">claudia@habitosaludables.com</p></a>
+                        <a href="mailto:habitosfaciles@gmail.com?subject=Contacto%20HabtiosFaciles"><p class="friend">habitosfaciles@gmail.com</p></a>
                     </div>
                 </div>
                 
@@ -76,10 +75,10 @@
                 </p>
                    </div>
                    <div class="col fcentered">
-                       <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/005-facebook.png" alt="Facebook"></a>
+                       <a href="https://www.facebook.com/habitosfaciles/" target="_blank" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/005-facebook.png" alt="Facebook"></a>
                    </div>
                    <div class="col fcentered">
-                       <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/006-instagram.png" alt="Instagram"></a>
+                       <a href="" target="_blank" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/006-instagram.png" alt="Instagram"></a>
                    </div>
                </div>
                 

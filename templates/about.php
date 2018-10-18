@@ -59,6 +59,12 @@
                 Mil gracias<br>
                 N A M A S T E</p>
             </div>
+            <div id="certificados" class="fcentered">
+                <div class="flex">
+                    <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/diploma1.png" alt="Certificado de coach en cambio de hábitos"></div>
+                    <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/diploma2.png" alt="Diplomado en Plant Based Chef"></div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

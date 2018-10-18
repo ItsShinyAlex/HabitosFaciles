@@ -953,6 +953,15 @@ h1 {
 #cv .green {
   font-size: 48px;
 }
+#cv #certificados .flex {
+  width: 140%;
+}
+#cv #certificados .flex .col img {
+  width: 100%;
+}
+#cv #certificados .flex .col img:hover {
+  transform: scale(1.06);
+}
 @media screen and (max-width: 1500px) and (min-width: 666px) {
   .woodmart-nav-link {
     font-size: 15px !important;
@@ -1535,7 +1544,7 @@ h1 {
     font-size: 60px !important;
     margin-bottom: 400px;
     position: relative;
-    top: 50px;
+    top: 20px;
   }
   #hola h2 {
     font-size: 30px;
@@ -1590,5 +1599,14 @@ h1 {
   #cv .green {
     font-size: 30px;
     line-height: 111%;
+  }
+  #cv #certificados .flex {
+    width: 100%;
+  }
+  #cv #certificados .flex .col {
+    width: 100%;
+  }
+  #cv #certificados .flex .col img {
+    width: 100%;
   }
 }
