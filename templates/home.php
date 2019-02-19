@@ -99,7 +99,7 @@
 </section>
 
 
-<section id="testimonios" class="template-section">
+<section id="testimonios" class="template-section hide">
     <div class="contain">
          <div class="center">
              
